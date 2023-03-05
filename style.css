@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(42, 4, 4, 0.786)),url('images/new.png');
+    mask-image: url('image/saikiran.jpg');
+    background-position: center;
+    background-size: cover;
+      position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.text-book.h1{
+ 
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  h1 {
+    color: hsl(0, 95%, 50%);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 7px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  h1 {
+    padding: 64px;
+    background: linear-gradient(to right, hsl(0, 100%, 56%) 0, hsl(46, 100%, 50%) 10%, hsl(0, 6%, 94%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 3s infinite linear;
+  }
+  
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 1000px;
+    }
+    100% {
+      background-position: 1000px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav img{
+    width: 150px;
+
+}
+.nav-links{
+    flex: 1;
+    text-decoration: none;
+    text-align: right;
+}
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    
+    position: relative;
+    border-radius: 10%;
+    border-top-left-radius: 1%;
+}
+
+ 
+
+.nav-links ul li a{
+    color: white;
+    transition: 1s;
+    padding: 5px 20px;
+    border: 0px solid wheat;
+    border-radius: 5px;    
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links ul li a:hover{
+
+    background-color:white;
+    color: black;
+}
+
+.nav.fa.active{
+    background-color:white;
+    color: black;
+}
+.saikiran{
+  background-color: aqua;
+  text-align: center;
+
+} 
+
+.footer-dark{
+  text-align: center;
+  text-shadow: 1px;
+  color: aliceblue;
+
+background-image: linear-gradient(to bottom right, rgb(51, 47, 50), rgb(114, 114, 114));
+}
+
+
+
+
+
+
+
+
+ 
+
+
